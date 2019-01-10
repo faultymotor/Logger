@@ -19,6 +19,7 @@ public class RobotLogger {
         formatter = new LogFormatter();
         usb.setFormatter(formatter);
 
+        logger.setUseParentHandlers(false);
         logger.addHandler(usb);
 
         logger.setLevel(Level.FINEST);
