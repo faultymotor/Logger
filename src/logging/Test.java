@@ -27,7 +27,6 @@ public class Test {
         LOGGER.info("Info Log");
         LOGGER.finest("Finest Log");
 
-
         LOGGER.setLevel(Level.INFO);
         LOGGER.severe("Severe Log");
         LOGGER.warning("Warning Log");
