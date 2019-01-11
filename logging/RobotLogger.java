@@ -14,7 +14,7 @@ public class RobotLogger {
     static public void setup() throws IOException {
         Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-        usb = new FileHandler("usb.csv"); // on usb drive
+        usb = new FileHandler("/media/lvuser/U:/usb.csv"); // on usb drive
 
         formatter = new LogFormatter();
         usb.setFormatter(formatter);
