@@ -1,11 +1,11 @@
-package logging;
+package frc.team4159.robot.Logger.logging;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import logging.LogFormatter;
+import frc.team4159.robot.Logger.logging.LogFormatter;
 
 public class RobotLogger {
     static private FileHandler usb;

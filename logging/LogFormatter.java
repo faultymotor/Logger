@@ -1,4 +1,4 @@
-package logging;
+package frc.team4159.robot.Logger.logging;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
