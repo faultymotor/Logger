@@ -14,14 +14,16 @@ public class RobotLogger {
     static public void setup() throws IOException {
         Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-        usb = new FileHandler("usb.txt"); // on usb drive
+        usb = new FileHandler("usb.csv"); // on usb drive
 
         formatter = new LogFormatter();
         usb.setFormatter(formatter);
 
+        logger.setUseParentHandlers(false);
         logger.addHandler(usb);
 
         logger.setLevel(Level.FINEST);
 
+        logger.config("level,timestamp,message");
     }
 }

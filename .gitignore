@@ -1,5 +1,3 @@
 .idea
 *.class
-
-usb.txt*
-Test.java
+usb.csv*
