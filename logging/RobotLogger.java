@@ -12,7 +12,7 @@ public class RobotLogger {
     static private LogFormatter formatter;
 
     static public void setup() throws IOException {
-        Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+        Logger logger = Logger.getLogger("team4159");
 
         usb = new FileHandler("/media/sda1/usb.csv"); // on usb drive
 
